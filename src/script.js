@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const display = document.getElementById('calc-display');
     const buttons = document.getElementsByClassName('btn')
-
+    console.log(display);
     let currentValue = "";
 
     function evaluateResult() {
